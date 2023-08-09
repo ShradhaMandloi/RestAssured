@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FetchDataFromResponse.FetchingDataFromReadyMadeJson">
+      <class name="Ecommerce.AddProduct">
         <methods>
-          <include name="fetchData"/>
+          <include name="addProducttoApp"/>
         </methods>
-      </class> <!-- FetchDataFromResponse.FetchingDataFromReadyMadeJson -->
+      </class> <!-- Ecommerce.AddProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
